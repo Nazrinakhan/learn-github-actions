@@ -4,4 +4,4 @@ jobs:
   DEV:
     runs-on: ubuntu-latest
     steps:
-      - run: echo HeLLOo
+      - run: echo HeLOo
