@@ -5,3 +5,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - run: echo HeLOo
+  QA:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo HeLOo
+  UAT:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo HeLOo
+  PROD:
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo HeLOo
