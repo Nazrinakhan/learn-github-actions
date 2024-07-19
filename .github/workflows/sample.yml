@@ -7,13 +7,19 @@ jobs:
       - run: echo HeLOo
   QA:
     runs-on: ubuntu-latest
+    needs:
+      - DEV
     steps:
       - run: echo HeLOo
   UAT:
     runs-on: ubuntu-latest
+    needs:
+      - QA
     steps:
       - run: echo HeLOo
   PROD:
     runs-on: ubuntu-latest
+    needs:
+      - UAT
     steps:
       - run: echo HeLOo
