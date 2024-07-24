@@ -1,0 +1,11 @@
+name: self hosted runners
+on: [push, workflow_dispatch]
+jobs:
+  DEV:
+    runs-on: self hosted
+    steps:
+      - run: echo HeLOo
+          pwd
+          hostname
+          ls
+          ip a
